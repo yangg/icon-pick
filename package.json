@@ -1,0 +1,14 @@
+{
+  "name": "icon-pick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "icon-pick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "font-carrier": "0.0.8"
+  }
+}
