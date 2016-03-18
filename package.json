@@ -4,6 +4,7 @@
   "description": "",
   "main": "icon-pick.js",
   "scripts": {
+    "start": "node icon-pick.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

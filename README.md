@@ -1,2 +1,2 @@
 # icon-pick
-extract icon from fontawesome, .etc
+extract svg icons from fontawesome, .etc
