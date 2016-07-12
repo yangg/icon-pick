@@ -15,7 +15,10 @@ var icons = originals.reduce(function(ret, cur) {
     return ret;
 }, {});
 for(var key in icons) {
-    var svg = font.getSvg(key)
+    var svg = font.getSvg(key);
+
+    // fix viewBox
+    svg = svg.replace(/(viewBox="0 0) \d+\s+\d+/, '$1 100 100');
 
     fs.writeFileSync('./dist/' + icons[key] +'.svg', svg)
 }
